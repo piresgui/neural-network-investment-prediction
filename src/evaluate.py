@@ -38,7 +38,7 @@ def print_report(metrics: dict, title: str = "Relatório de Avaliação"):
     print(sep)
     print(f"  Acurácia Geral        : {metrics['accuracy']:.4f} ({metrics['accuracy']*100:.2f}%)")
     print(f"  Precisão              : {metrics['precision']:.4f}")
-    print(f"  Recall (TP Rate)      : {metrics['recall_tp_rate']:.4f}  ← foco principal")
+    print(f"  Recall (TP Rate)      : {metrics['recall_tp_rate']:.4f}  <- foco principal")
     print(f"  Especificidade        : {metrics['specificity']:.4f}")
     print(f"  F1-Score              : {metrics['f1_score']:.4f}")
     print(f"\n  Matriz de Confusão:")
